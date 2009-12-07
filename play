@@ -1,1 +1,3 @@
+#name : { ... }.play
+# --
 { ${1:SinOsc.ar} }.play

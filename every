@@ -1,3 +1,5 @@
-every { |${1:i}tem, $1|
+#name : every { |item| ... }
+# --
+every { |${1:item}|
 	$2
 };

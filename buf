@@ -1,1 +1,3 @@
+#name : Buffer.read( ... )
+# --
 Buffer.read(${1:s}, "${2:sounds/Amen.wav}");

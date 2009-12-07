@@ -1,3 +1,5 @@
-any { |${1:i}tem, $1|
+#name : any { |item| ... }
+# --
+any { |${1:item}|
 	$2
 };

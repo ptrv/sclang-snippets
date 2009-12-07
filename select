@@ -1,1 +1,3 @@
-select({|${1:i}tem, $1| $2 })
+#name : select({ |item| ... })
+# --
+select({|${1:item}| $2 })

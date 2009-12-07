@@ -1,1 +1,3 @@
+#name : FlowLayout
+# --
 w.view.decorator = FlowLayout(w.view.bounds);
