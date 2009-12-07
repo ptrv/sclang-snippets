@@ -1,0 +1,9 @@
+${1:Classname} : ${2:Object} {
+	*new { $3
+		^super.new.init$4;
+	}
+
+	init { $5
+		$6
+	}
+}
