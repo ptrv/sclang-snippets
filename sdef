@@ -1,5 +1,6 @@
-#name : SynthDef( ... , { ... } ).play(s)
+#name : SynthDef( ... , { ... } ).add
 # --
-SynthDef(\\${1:foobar}) { |${2:out=0}|
-	$0
-}.play(s);
+SynthDef(\\${1:foo}, { |${2:out=0}|
+	$3
+	Out.ar(out, $4)
+}).add;
