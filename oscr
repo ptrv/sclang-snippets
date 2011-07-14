@@ -1,0 +1,5 @@
+#name : OSCresponderNode( ... , ..., { |t, r, msg| ... } ).add
+# --
+OSCresponderNode(${1:nil}, '${2:foo}', { |t, r, msg|
+	$3
+}).add;
