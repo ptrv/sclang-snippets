@@ -1,3 +1,3 @@
 #name : dumpInterface
 # --
-dumpInterface;
+dumpInterface;$0

@@ -1,3 +1,3 @@
 #name : dumpAllMethods
 # --
-dumpAllMethods;
+dumpAllMethods;$0
