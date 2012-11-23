@@ -1,0 +1,3 @@
+#name : Crasy.ar(...)
+# --
+~cra = { Crasy.ar(~${1:in}.ar * \amp.kr(0) * 1.2) }

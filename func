@@ -1,5 +1,5 @@
-#name : { |arg| ... }
+#name : func = { |arg| ... }
 # --
-{ |${1:arg=value}|
-	$2
+${1:func} = { |${2:arg}${3:=${4:value}}|
+    $5
 }
