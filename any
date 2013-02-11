@@ -1,5 +1,5 @@
 #name : any { |item| ... }
 # --
 any { |${1:item}|
-	$2
+    $2
 };

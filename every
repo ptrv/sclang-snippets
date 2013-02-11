@@ -1,5 +1,5 @@
 #name : every { |item| ... }
 # --
 every { |${1:item}|
-	$2
+    $2
 };

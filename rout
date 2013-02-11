@@ -1,6 +1,6 @@
 #name : Routine { ... }
 # --
 Routine {
-	
-	${1:1.wait}
+
+    ${1:1.wait}
 };

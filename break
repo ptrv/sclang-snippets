@@ -1,6 +1,6 @@
 #name : block { |break| ... }
 # --
 block {|break|
-	
-	if (${1:true}) { break.value(${2:nil}) }; 
+
+    if (${1:true}) { break.value(${2:nil}) };
 }
