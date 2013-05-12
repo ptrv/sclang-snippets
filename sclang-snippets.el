@@ -1,4 +1,4 @@
-;;; sclang-snippets.el --- Snippets for sclang-mode
+;;; sclang-snippets.el --- Snippets for the SuperCollider Emacs mode
 
 ;; Copyright (C) 2013 ptrv <mail@petervasil.net>
 
@@ -20,17 +20,13 @@
 ;; You should have received a copy of the GNU General Public License
 ;; along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
-;;; Commentary:
-
-;; Snippets for SuperCollider Emacs mode.
-
 ;;; Code:
 
 (eval-when-compile
   (require 'yasnippet))
 
 (defvar sclang-snippets-dir (file-name-directory (or (buffer-file-name)
-                                                   load-file-name)))
+                                                     load-file-name)))
 
 ;;;###autoload
 (defun sclang-snippets-initialize ()
