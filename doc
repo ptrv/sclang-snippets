@@ -1,0 +1,9 @@
+#name : /**
+# --
+/**
+ * ${1:methodName}
+ *
+ ${2:* @param ${3:type}
+ *
+ }* @return ${3:void}
+ */

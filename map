@@ -1,0 +1,3 @@
+#name : mapTo...
+# --
+${1:d}.mapTo(~${2:anything}, ${1})

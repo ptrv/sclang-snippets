@@ -1,6 +1,6 @@
 #name : { |arg| ... }
 # key: {
 # --
-{ |${1:arg=value}|
-    $2
+{ |${1:arg}${2:=${3:value}}|
+    $4
 }`(if (string= (string (following-char)) "}") (delete-forward-char 1))`
