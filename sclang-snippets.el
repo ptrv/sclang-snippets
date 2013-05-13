@@ -22,8 +22,7 @@
 
 ;;; Code:
 
-(eval-when-compile
-  (require 'yasnippet))
+(require 'yasnippet)
 
 (defvar sclang-snippets-dir (file-name-directory (or (buffer-file-name)
                                                      load-file-name)))
