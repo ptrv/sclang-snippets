@@ -24,13 +24,14 @@
 
 (require 'yasnippet)
 
-(defvar sclang-snippets-dir (file-name-directory (or (buffer-file-name)
-                                                     load-file-name)))
+(defvar sclang-snippets-root (file-name-directory (or load-file-name
+                                                     (buffer-file-name))))
 
 ;;;###autoload
 (defun sclang-snippets-initialize ()
-  (let ((snip-dir (expand-file-name "snippets" sclang-snippets-dir)))
-    (add-to-list 'yas-snippet-dirs snip-dir t)
+  (let ((snip-dir (expand-file-name "snippets" sclang-snippets-root)))
+    (when (boundp 'yas-snippet-dirs)
+      (add-to-list 'yas-snippet-dirs snip-dir t))
     (yas-load-directory snip-dir)))
 
 ;;;###autoload
