@@ -25,7 +25,7 @@
 (require 'yasnippet)
 
 (defvar sclang-snippets-root (file-name-directory (or load-file-name
-                                                     (buffer-file-name))))
+                                                      (buffer-file-name))))
 
 ;;;###autoload
 (defun sclang-snippets-initialize ()
